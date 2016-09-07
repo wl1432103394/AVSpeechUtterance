@@ -36,9 +36,9 @@ if ([self.synthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryImmediate]) {
 }
 }
 //4 停止
-`
+`''
 - (void)stopSpeekingAction:(UIButton *)sender {
 if ([self.synthesizer isSpeaking]) {//是否正在表达
 [self.synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];//停止
 }
-}`
+}`''
