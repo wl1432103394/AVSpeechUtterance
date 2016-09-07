@@ -29,6 +29,7 @@ if ([self.synthesizer isSpeaking]) {//是否正在合成之后的表达
 }
 } else {
 //是否处于暂停状态
+```
 if ([self.synthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryImmediate]) {
 [self.synthesizer continueSpeaking];//继续表达
 [sender setTitle:@"暂停" forState:UIControlStateNormal];
@@ -36,9 +37,11 @@ if ([self.synthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryImmediate]) {
 }
 }
 //4 停止
-```
+
 - (void)stopSpeekingAction:(UIButton *)sender {
 if ([self.synthesizer isSpeaking]) {//是否正在表达
 [self.synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];//停止
 }
-}```
+}
+```
+写点什么
