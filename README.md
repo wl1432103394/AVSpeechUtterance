@@ -44,5 +44,4 @@ if ([self.synthesizer isSpeaking]) {//是否正在表达
 [self.synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];//停止
 }
 }
-```
-写点什么
+'''
