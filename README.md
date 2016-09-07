@@ -7,8 +7,8 @@ AVSpeechUtterance 语音表达 类
 AVSpeechSynthesizer 语音合成 类
 1 属性
 
-@property (nonatomic, strong) AVSpeechUtterance *utterance; //语音表达
-@property (nonatomic, strong) AVSpeechSynthesizer *synthesizer; //语音合成
+'@property (nonatomic, strong) AVSpeechUtterance *utterance; //语音表达'
+'@property (nonatomic, strong) AVSpeechSynthesizer *synthesizer; //语音合成'
 2初始化
 
 self.synthesizer = [[AVSpeechSynthesizer alloc] init]; //初始化语音合成者
